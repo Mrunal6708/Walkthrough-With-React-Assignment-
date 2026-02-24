@@ -2,10 +2,10 @@ import './index.css'
 
 function login(){
   return(
-    <div>
-      <input type="text" placeholder='username'/>
-      <input type="text" placeholder='password'/>
-      <button>Submit</button>
+    <div className='login'>
+      <input className='userName' type="text" placeholder='username'/>
+      <input className='passWord' type="text" placeholder='password'/>
+      <button className='submitBtn'>Submit</button>
     </div>
   )
 }
